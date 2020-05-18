@@ -1,0 +1,3803 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+#image-menu {
+    background-image: url('components/pages/assets/img/ImageNav.png');
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 758px;
+    bottom: 100px;
+    height: 97%;
+    width: 43%;
+    border: solid 3px #01abc4;
+}
+
+.frontSideImage {
+    background-image: url('components/pages/assets/img/Composant 61 – 1.png');
+
+}
+
+.image-gal {
+    vertical-align: center;
+    border-style: none;
+    /*margin-bottom: 70px;*/
+    background-position: center center;
+    background-size: cover;
+    top: 90px;
+    left: 2px;
+    margin-top: 40px;
+    bottom: 100px;
+    height: 20%;
+    width: 20%;
+}
+
+.image-footer {
+
+    vertical-align: center;
+    border-style: none;
+    /*margin-bottom: 70px;*/
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 116%;
+    max-height: 100%;
+    max-width: 116%;
+}
+
+/*image homeeeee*/
+.Ayda-Kchaou_Tunisia_2017 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 266px;
+    height: 192px;
+    object-fit: contain;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.Ayda-Kchaou_Tunisia_2018 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 681px;
+    object-fit: contain;
+    opacity: 0.21;
+    background-color: #000000;
+}
+
+.Ayda-Kchaou2_Tunisia_2018 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 191px;
+    height: 287px;
+    object-fit: contain;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.What-else {
+    padding-left: 15px;
+    width: 582px;
+    height: 43px;
+    font-family: 'FuturaPT', serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: 24.13px;
+    text-align: left;
+    color: #01abc4;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.Together-with-my-fri {
+    width: 548px;
+    height: 556px;
+    font-family: 'Poppins', serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.66;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.Together-with-my-fri-white {
+    width: 548px;
+    height: 556px;
+    font-family: 'Poppins', serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.66;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: lowercase;
+    color: white;
+}
+
+/*end image homeeeeeee*/
+
+
+.image-carousel {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+}
+
+.image-carousel-layer {
+
+    border-style: none;
+    /* margin-bottom: 70px; */
+    background-position: center center;
+    background-size: cover;
+    height: 390px;
+
+    width: 100%;
+    /*width: 368px;*/
+    /*height: 493px;*/
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.Shop-Now {
+    width: 140px;
+    height: 18px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 6.5px;
+    text-align: left;
+    color: #f7f8fa;
+}
+
+.candle {
+    text-transform: uppercase;
+    color: #01ABC4;
+    font-family: 'FuturaPT', "Medium", sans-serif;
+    font-size: 14px;
+    opacity: 100%;
+    letter-spacing: 6.5px;
+
+}
+
+.text-camera {
+    text-transform: capitalize;
+    color: #171717;
+    font-family: 'FuturaPT', "Medium", sans-serif;
+    font-size: 40px;
+    opacity: 100%;
+    letter-spacing: 0px;
+
+}
+
+.text-glass {
+    text-transform: uppercase;
+    color: #171717;
+    font-family: 'FuturaPT', "Medium", sans-serif;
+    font-size: 14px;
+    opacity: 100%;
+    letter-spacing: 2px;
+
+}
+
+.text-upper {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'FuturaPT', "Medium", sans-serif;
+    font-size: 14px;
+    opacity: 30%;
+
+    letter-spacing: 16px;
+
+}
+
+.text-para {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'FuturaPT', "Book", sans-serif;
+    font-size: 12px;
+    opacity: 100%;
+
+    letter-spacing: 6px;
+
+}
+
+.number-inc {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'FuturaPT', "Medium", sans-serif;
+    font-size: 24px;
+    opacity: 100%;
+    letter-spacing: 6px;
+
+}
+
+.price {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'FuturaPT', "Medium", sans-serif;
+    font-size: 18px;
+    opacity: 100%;
+    margin-top: 50px;
+    letter-spacing: 6px;
+
+}
+
+.cart {
+    width: 110px;
+    height: 18px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 6.5px;
+    text-align: left;
+    color: #f7f8fa;
+}
+
+.Trac-160 {
+    width: 186.8px;
+    height: 186.8px;
+    border: 2px solid white;
+}
+
+.Trac-170 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    /*opacity: 0.48;*/
+    border: solid 1px #707070;
+    background-color: #000000;
+}
+
+.Trac-233 {
+    width: 42.8px;
+    height: 42.8px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    /*background-color: var(--white);*/
+}
+
+.Explore-whats-trend {
+    width: 694px;
+    /*height: 219px;*/
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 13px;
+    text-align: left;
+    color: var(--white);
+}
+
+.Explore-whats-trend-support {
+    width: 694px;
+    /*height: 219px;*/
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 23px;
+    text-align: left;
+    color: var(--white);
+}
+
+.All-Collections {
+    padding-left: 80px;
+    width: 457px;
+    height: 151px;
+    font-family: 'FjallaOne', sans-serif;
+    font-size: 109px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 11.24px;
+    text-align: left;
+    color: var(--white);
+}
+
+.All-CollectionsShow {
+    padding-left: 80px;
+    width: 457px;
+    height: 151px;
+    font-family: 'FjallaOne', sans-serif;
+    font-size: 109px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /*line-height: 1.29;*/
+    letter-spacing: 11.24px;
+    text-align: left;
+    color: var(--white);
+}
+
+.Rectangle-1532 {
+    width: 100%;
+    opacity: 0.34;
+    border: solid 1px #707070;
+    background-color: #000000;
+    position: relative;
+    height: 700px;
+}
+
+.Rectangle-1532 iframe {
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.WhatsApp-Image-2019-11-18-at-162400 {
+
+    /*width: 430px;*/
+    height: 480px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.Rectangle-14 {
+    /*width: 430px;*/
+    height: 480px;
+    opacity: 0.14;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.Rectangle-13 {
+    width: 95%;
+    height: 480px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.Day-1 {
+    z-index: 15;
+    width: 163px;
+    height: 79px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: -1.63px;
+    text-align: left;
+    color: var(--white);
+}
+
+.Day-2 {
+    width: 177px;
+    height: 79px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: -1.63px;
+    text-align: left;
+    color: var(--white);
+}
+
+.-March-2020 {
+    z-index: 15;
+    width: 258px;
+    height: 49px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    /*line-height: 2.83;*/
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+
+.Day-3 {
+    width: 176px;
+    height: 79px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: -1.63px;
+    text-align: left;
+    color: var(--white);
+}
+
+.Day-4 {
+    width: 183px;
+    height: 79px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: -1.63px;
+    text-align: left;
+    color: var(--white);
+}
+
+.menu {
+    width: 120px;
+    height: 31px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 18px;
+    text-align: left;
+    color: #01abc4;
+}
+
+/*menu links*/
+.Shop {
+    /*width: 172px;*/
+    /*height: 84px;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /*line-height: 1.65;*/
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.Videos {
+    /*width: 304px;*/
+    /*height: 84px;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /*line-height: 1.65;*/
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.Look-book {
+    /*width: 242px;*/
+    /*height: 84px;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /*line-height: 1.65;*/
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.Resume {
+    /*width: 354px;*/
+    /*height: 84px;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /*line-height: 1.65;*/
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.Contact {
+    /*width: 290px;*/
+    /*height: 84px;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /*line-height: 1.65;*/
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+/*menu links*/
+/*menu down links*/
+.YoutubeMenu {
+    width: 62px;
+    height: 26px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01abc4;
+}
+
+.InstagramMenu {
+    padding-left: 50px;
+    width: 76px;
+    height: 26px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01abc4;
+}
+
+.SubscribeMenu {
+    width: 76px;
+    height: 26px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01abc4;
+}
+
+
+/*menu down links*/
+.check-new-look-books {
+    width: 165px;
+    height: 86px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 5.2px;
+    text-align: left;
+    color: var(--white);
+    margin-left: 10px;
+}
+
+.meet-the-influencer {
+    width: 708px;
+    height: 123px;
+    font-family: 'FuturaPT-Demi', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 12px;
+    text-align: left;
+    color: var(--white);
+}
+
+.meet-the-influencer .text-style-1 {
+    font-family: 'FuturaPT', sans-serif;
+}
+
+.meet-the-influencer .text-style-2 {
+    letter-spacing: 27px;
+}
+
+.Sarah-Cornish-presents {
+    width: 1212px;
+    height: 313px;
+    font-family: 'FjallaOne', sans-serif;
+    font-size: 85px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 14.24px;
+    text-align: left;
+    color: var(--white);
+}
+
+
+.about-me-home {
+    width: 763px;
+    height: 97px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #363636;
+}
+
+
+.a-fashion-designer-a-home {
+    text-transform: capitalize;
+    width: 981px;
+    height: 97px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #363636;
+}
+
+
+.textExiste {
+    /*width: 882px;*/
+    /*height: 963px;*/
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #171717;
+
+}
+
+.Image {
+    /*width: 100%;*/
+    min-width: 638px;
+    padding-left: 50px;
+    height: 800px;
+    background-image: url('./assets/img/bg_5.jpg');
+    /*background-size: 895px 1054px;*/
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.my-products {
+    padding-bottom: 70px;
+    text-transform: uppercase;
+    width: 134px;
+    height: 18px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 4px;
+    text-align: left;
+    color: var(--white);
+}
+
+
+/*bottom links*/
+.Youtube {
+    width: 62px;
+    height: 26px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+
+.Instagram {
+    width: 76px;
+    height: 26px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+
+.Subscribe {
+    width: 61px;
+    height: 26px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f7f8fa;
+}
+
+@media (min-width: 1050px) {
+    .styles_modal__gNwvD {
+        min-width: 1148px;
+        position: relative;
+        padding: 0;
+        background: #ffffff;
+        background-clip: padding-box;
+        box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+        margin: 0 auto;
+    }
+
+    .logo-home {
+        max-width: 100%;
+        margin-top: 0px;
+        width: 24%;
+        height: 100%;
+        max-height: 100%;
+    }
+
+
+    .logo-footer {
+        max-width: 100%;
+        margin-top: 170px;
+        width: 80%;
+        /* height: 100%; */
+        max-height: 100%;
+    }
+
+    .check-out-some-more {
+        width: 351px;
+        height: 185px;
+        opacity: 0.3;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.8;
+        letter-spacing: 20px;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .paddingPart {
+        padding-left: 91px;
+    }
+
+    .div-Agenda {
+        height: 460px;
+    }
+
+    .rowCONTENT {
+        margin-top: 50px;
+    }
+
+    .rowSUPPORTUS {
+        height: 150px;
+    }
+
+    .ftco-textLoc {
+        margin-top: 300px;
+        z-index: 15;
+    }
+
+    .sectionLocationHomeSidiBou {
+        height: 1315px;
+        background-color: #e8e8e8;
+    }
+
+    .Mais-il-existe-deux-faons {
+        width: 607px;
+        height: 915px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #171717;
+    }
+
+    .Shop-by-CategoriesHome {
+        margin-top: 40px;
+        width: 298px;
+        height: 209px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 76px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000000;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+
+    .my-productsHome {
+        text-transform: uppercase;
+        width: 191px;
+        height: 26px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: 5.71px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .Meet-me {
+        width: 84px;
+        height: 18px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 4px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .More-homeDepartement {
+
+        text-transform: uppercase;
+        width: 565px;
+        height: 31px;
+        font-family: 'FuturaPT-Demi', sans-serif;
+        font-size: 23px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 30.14px;
+        text-align: left;
+        color: #01abc4;
+    }
+
+    .More-home {
+        width: 117px;
+        height: 20px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: 25.71px;
+        text-align: left;
+        color: #01abc4;
+    }
+
+    .RectangleMore {
+        width: 134px;
+        height: 2px;
+        margin-top: 8px;
+        background-color: #01abc4;
+    }
+
+    .RectangleHome {
+        width: 480px;
+        height: 2px;
+        margin-top: 4px;
+        background-color: #01abc4;
+    }
+
+    .RowMenu {
+        margin-top: -50px;
+    }
+
+    .divlistIconsHome {
+        margin-top: 70px;
+        color: white;
+        width: 30px;
+        text-align: right;
+    }
+
+    .Shop-by-Categories {
+
+        text-decoration: underline;
+        text-transform: uppercase;
+        /*width: 298px;*/
+        height: 209px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 76px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .divSidiBouText {
+        padding-top: 250px;
+        padding-left: 80px;
+    }
+
+    .sectionAgenda {
+        background-color: #000000;
+        height: 1200px;
+    }
+
+    .div-agenda {
+        padding-top: 130px;
+        margin-bottom: 120px;
+
+    }
+
+    .a-fashion-designer-agenda {
+        width: 1050px;
+        height: 122px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 110px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .Hey-Im-Molley-Home {
+        width: 870px;
+        height: 156px;
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 125px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 26.55px;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .Hey-Im-Molley- {
+        width: 979px;
+        height: 140px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 109px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: -2.99px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .Hey-Im-Sarah-Support {
+
+        font-size: 97px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.99px;
+        text-align: left;
+        color: #363636;
+
+        width: 676px;
+        height: 184px;
+        font-family: 'BigCaslon', sans-serif;
+
+    }
+
+    .if-you-have-someSupport {
+        width: 927px;
+        height: 127px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 95px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.68px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .All-Support {
+        padding-left: 80px;
+        width: 457px;
+        height: 151px;
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 109px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        /*line-height: 1.29;*/
+        letter-spacing: 11.24px;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .sectionNoirFirst {
+        height: 1104px;
+        background-color: #000000;
+    }
+
+    .sectionWhiteFirst {
+        height: 628px;
+    }
+
+    .sectionBlackSecond {
+        height: 850px;
+        background-color: black;
+    }
+
+    .sectionWhiteSecond {
+        height: 881px;
+    }
+
+    .Fam-department {
+        width: 1193px;
+        height: 171px;
+        /*padding-left: 120px;*/
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 100px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 16.24px;
+        text-align: center;
+        color: #01abc4;
+    }
+
+    .hey {
+        width: 86px;
+        height: 48px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.26;
+        letter-spacing: 10.86px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .Talk-to-me {
+        width: 676px;
+        height: 184px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 154px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -4.01px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .if-you-have-some {
+        width: 927px;
+        height: 127px;
+        font-family: 'BigCaslon', sans-serif;
+
+        font-size: 95px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.68px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .collaborations {
+        margin-top: -30px;
+        width: 679px;
+        height: 127px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 95px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.68px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .collaborationsSupport {
+        margin-top: -30px;
+        width: 679px;
+        height: 127px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 69px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.68px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .Any {
+        width: 97px;
+        height: 23px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.28;
+        letter-spacing: 30.86px;
+        text-align: center;
+        color: #01abc4;
+    }
+
+    .textVideo {
+        text-align: left;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 0;
+        line-height: 100px;
+        color: #E8E8E8;
+        text-transform: capitalize;
+        text-decoration: underline;
+        opacity: 1;
+        margin-top: -90px;
+        font-size: 50px;
+    }
+
+    .We-are-all-about-new-Contact {
+        height: 407.8px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        margin-bottom: 30px;
+        letter-spacing: 13.86px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .We-are-all-about-new {
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 18px;
+        height: 429.8px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: 6.86px;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .footersection {
+        margin-top: -189px;
+    }
+
+    .sectionLinksHome {
+        background-color: #000000;
+        height: 820px;
+
+    }
+
+    .sectiontalk {
+        height: 820px;
+        background-color: #e8e8e8;
+        padding-top: 120px;
+    }
+
+    .sectiontalkHome {
+        height: 700px;
+        background-color: white;
+        padding-top: 120px;
+    }
+
+    .sectiontalkSupport {
+        height: 750px;
+
+        margin-top: -99px;
+    }
+
+    .collectionText2 {
+        height: 334px;
+    }
+
+    .collectionText1 {
+        height: 586px;
+    }
+
+    .sectionSupport {
+        height: 1815px;
+        margin-top: -233px;
+    }
+
+    .image-section-right-supportUS {
+        border-style: none;
+        /* margin-top: 91px; */
+        background-position: center center;
+        background-size: cover;
+        height: 227px;
+        width: 182px;
+        margin-left: 90px;
+        margin-top: -18px;
+    }
+
+    .image-footer1 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 113%;
+        margin-top: -35px;
+        margin-left: 15px;
+    }
+
+
+    .ftco-quote1 {
+        margin-bottom: -125px;
+    }
+
+    .ftco-quote2 {
+        margin-top: -81px;
+    }
+
+    .ftco-quote3 {
+        margin-top: -106px;
+    }
+
+    .ftco-quote4 {
+        margin-top: -136px;
+    }
+
+    .ftco-home1 {
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+
+    .ftco-home2 {
+        margin-top: 216px;
+        margin-left: 0px;
+    }
+
+    .ftco-quote5 {
+        margin-top: -205px;
+    }
+
+    .ftco-quote6 {
+        margin-top: -158px;
+        /*margin-top: -156px;*/
+    }
+
+    .ftco-quote7 {
+        margin-top: -46px;
+    }
+
+    .ftco-quote9 {
+        margin-top: -209px;
+    }
+
+    .ftco-quote-right {
+        margin-top: -333px;
+    }
+
+    .carousel-noir1 {
+        margin-top: 300px;
+    }
+
+    .galleryName {
+        padding-top: 40px;
+    }
+}
+
+.responsive {
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    opacity: 0.34;
+    border: solid 1px #707070;
+    background-color: #000000;
+}
+
+.responsive iframe {
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.image-contact {
+    width: 175px;
+    height: 148px;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.vl {
+    /*border-left: 2px solid #01ABC4; *!*/
+    /* position: absolute; */
+    height: 50px;
+    /* width: 2px; */
+    /* transform: matrix(0, -1, 1, 0, 0, 0); */
+    /* background: #01ABC4 0 0 no-repeat padding-box; */
+    /* opacity: 1; */
+    /* filter: blur(8px); */
+    background-color: #01abc4;
+    width: 3px;
+    /* margin: auto; */
+    /* margin-top: 326px; */
+    /* margin-left: -180px; */
+    transform: rotate(180deg);
+    /* border-color: #24A0ED; */
+    z-index: 20;
+    border-top: 1px solid #01ABC4;
+}
+
+.image-show-1 {
+    background: url("./assets/img/person_2.jpg");
+}
+
+
+@media (min-width: 500px )and (max-width: 1049px) {
+    .logo-home {
+        max-width: 100%;
+        margin-top: 0px;
+        width: 50%;
+        height: 100%;
+        max-height: 100%;
+    }
+
+    .imgBACK {
+        background-image: url("components/pages/assets/img/About2x.png");
+    }
+
+    .logo-footer {
+        max-width: 100%;
+        margin-top: 42px;
+        margin-left: 30px;
+        width: 20%;
+        /* height: 100%; */
+        max-height: 100%;
+    }
+
+    .check-out-some-more {
+        width: 351px;
+        height: 185px;
+        opacity: 0.3;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.8;
+        letter-spacing: 20px;
+        text-align: left;
+        color: var(--white);
+        margin-left: 143px;
+    }
+
+    .padTop {
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 760px )and (max-width: 1049px) {
+
+    .Mais-il-existe-deux-faons {
+        margin-top: 50px;
+        width: 700px;
+        height: 915px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 19px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #171717;
+    }
+}
+
+@media (min-width: 500px ) and (max-width: 1049px) {
+    #div-AgendaDys {
+        height: 460px;
+        margin-bottom: 50px;
+
+    }
+
+    .rowCONTENT {
+        margin-top: 159px;
+    }
+
+    .rowSUPPORTUS {
+        margin-top: 50px;
+        height: 150px;
+    }
+
+    .image-section-right-supportUS {
+        border-style: none;
+        /* margin-top: 91px; */
+        background-position: center center;
+        background-size: cover;
+        height: 227px;
+        width: 182px;
+        margin-left: 90px;
+        margin-top: -18px;
+    }
+
+    .sectionLocationHomeSidiBou {
+        height: 2162px;
+        background-color: #e8e8e8;
+    }
+
+
+    .Shop-by-CategoriesHome {
+        margin-top: 40px;
+        width: 298px;
+        height: 209px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 76px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000000;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+
+    .my-productsHome {
+        text-transform: uppercase;
+        width: 191px;
+        height: 26px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: 5.71px;
+        text-align: left;
+        color: #000000;
+    }
+
+
+    .Meet-me {
+        margin-top: 80px;
+        width: 84px;
+        height: 18px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 4px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .padLineMore {
+        margin-left: 50px;
+    }
+
+    .RectangleMore {
+        width: 134px;
+        height: 2px;
+        margin-top: 8px;
+        background-color: #01abc4;
+    }
+
+    .More-homeDepartement {
+        margin-left: -50px;
+        text-transform: uppercase;
+        width: 565px;
+        height: 31px;
+        font-family: 'FuturaPT-Demi', sans-serif;
+        font-size: 23px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 30.14px;
+        text-align: left;
+        color: #01abc4;
+    }
+
+    .RectangleHome {
+        width: 387px;
+        height: 2px;
+        background-color: #01abc4;
+    }
+
+    .More-home {
+        text-transform: uppercase;
+        width: 565px;
+        height: 31px;
+        font-family: 'FuturaPT-Demi', sans-serif;
+        font-size: 23px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 30.14px;
+        text-align: left;
+        color: #01abc4;
+    }
+
+    .Just-a-bit-of-what-home {
+        margin-left: -50px;
+    }
+
+    .sectionLinksHome {
+        background-color: #000000;
+    }
+
+    .RowMenu {
+        margin-top: 50px;
+        padding-left: -100px;
+    }
+
+    .divlistIconsHome {
+        margin-left: 0;
+        margin-top: 0;
+        color: white;
+        text-align: right;
+    }
+
+    .Sarah-Cornish-presents {
+        width: 1212px;
+        height: 313px;
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 52px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 14.24px;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .Shop-by-Categories {
+
+        margin-top: -154px;
+        margin-left: -208px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        width: 310px;
+        height: 209px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .divSidiBouText {
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    .sectionAgenda {
+        background-color: #000000;
+        height: 2783px;
+    }
+
+    .div-agenda {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .a-fashion-designer-agenda {
+        margin-top: 60px;
+        margin-left: -17px;
+        height: 306px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 100px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .Hey-Im-Molley-Home {
+        margin-left: -10px;
+        height: 156px;
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 73px;
+
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 26.55px;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .sectiontalkHome {
+        height: 1150px;
+    }
+
+    .Hey-Im-Molley- {
+        width: 979px;
+        height: 140px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 67px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: -2.99px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .RowMargin {
+        margin-top: 196px;
+    }
+
+    .RowMargin1D {
+        margin-top: 302px;
+    }
+
+    .RowBecome {
+        margin-top: 340px;
+    }
+
+    .a-fashion-designer-a {
+        margin-left: -100px;
+    }
+
+    /*.Throughout-the-last {*/
+    /*    margin-top: 50px;*/
+    /*    padding-left: 44px;*/
+    /*    */
+    /*}*/
+    .Throughout-the-last {
+        margin-top: 50px;
+        padding-left: 44px;
+        width: 510px;
+        height: 245.8px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.14;
+        letter-spacing: 5px;
+        text-align: center;
+        color: #2c2c2c;
+    }
+
+    .All-About {
+        padding-left: 50px;
+    }
+
+    .Hey-Im-Sarah-Support {
+        margin-top: 106px;
+        padding-left: 0;
+        margin-left: -164px;
+        font-size: 95px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.99px;
+        text-align: left;
+        color: #363636;
+        width: 676px;
+        height: 184px;
+        font-family: 'BigCaslon', sans-serif;
+    }
+
+    .if-you-have-someSupport {
+        margin-left: -22px;
+        width: 927px;
+        height: 127px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 69px;
+
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.68px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .All-Support {
+        padding-left: 0;
+        padding-top: 77px;
+        width: 457px;
+        height: 151px;
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 109px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        /*line-height: 1.29;*/
+        letter-spacing: 11.24px;
+        text-align: left;
+        color: var(--white);
+    }
+
+
+    .sectionNoirFirst {
+        height: 2200px;
+        background-color: black;
+    }
+
+    .ftco-quote5 {
+        margin-top: -190px;
+    }
+
+    .sectionWhiteFirst {
+        height: 1400px;
+    }
+
+    .sectionBlackSecond {
+        height: 1600px;
+        background-color: black;
+    }
+
+    .sectionWhiteSecond {
+        height: 1320px;
+    }
+
+    .Fam-department {
+        width: 1193px;
+        height: 171px;
+        /*padding-left: 120px;*/
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 92px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 16.24px;
+        text-align: center;
+        color: #01abc4;
+    }
+
+    .We-are-all-about-new-Contact {
+        height: 407.8px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 21px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: 13.86px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .sectionHistoryAbout {
+        height: 1498px;
+    }
+
+    .sectionContactAbout {
+        height: 790px;
+
+    }
+
+    .staffLine {
+        margin-left: 15px;
+    }
+
+    .We-are-all-about-new {
+        margin-left: 15px;
+        margin-top: 30px;
+        height: 407.8px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: 10.86px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .thirdCol {
+        margin-left: -145px;
+    }
+
+    .thirdColSupp {
+        margin-left: -25px;
+    }
+
+    .hey {
+        margin-left: 20px;
+        width: 86px;
+        height: 48px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.26;
+        letter-spacing: 10.86px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .Talk-to-me {
+        width: 676px;
+        height: 184px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 116px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -4.01px;
+        text-align: left;
+        color: #363636;
+        margin-left: -18px;
+    }
+
+    .if-you-have-some {
+        margin-left: -255px;
+        width: 927px;
+        height: 127px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.68px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .collaborations {
+        margin-top: -30px;
+        width: 679px;
+        height: 127px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.68px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .collaborationsSupport {
+        margin-top: -30px;
+        width: 679px;
+        height: 127px;
+        font-family: 'BigCaslon', sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: -2.68px;
+        text-align: left;
+        color: #363636;
+    }
+
+    .Any {
+        padding-top: 20px;
+        width: 97px;
+        height: 23px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.28;
+        letter-spacing: 30.86px;
+        text-align: left;
+        color: #01abc4;
+    }
+
+    .All-Collections {
+        padding-left: 0;
+        width: 457px;
+        height: 151px;
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 109px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 11.24px;
+        text-align: left;
+        color: var(--white);
+        padding-top: 90px;
+    }
+
+    .All-CollectionsShow {
+        padding-left: 0px;
+        width: 457px;
+        height: 151px;
+        font-family: 'FjallaOne', sans-serif;
+        font-size: 70px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        /*line-height: 1.29;*/
+        letter-spacing: 11.24px;
+        text-align: left;
+        color: var(--white);
+    }
+
+    .footersection {
+        margin-top: -190px;
+    }
+
+    .sectiontalk {
+        height: 812px;
+        background-color: #e8e8e8;
+        padding-top: 120px;
+    }
+
+    .sectiontalkSupport {
+
+        height: 800px;
+        margin-top: -110px;
+    }
+
+    .collectionText1 {
+        height: 740px;
+    }
+
+    .collectionText2 {
+        height: 600px;
+    }
+
+    .ftco-quote-right {
+        margin-top: 866px;
+    }
+
+    .ftco-quote9 {
+        margin-top: -150px;
+    }
+
+    .colAbout {
+        margin-top: -158px;
+    }
+
+    .sectionSupport {
+        height: 2854px;
+        margin-top: -150px;
+    }
+
+    .talktoUS {
+        margin-left: -478px;
+    }
+
+    .ideas {
+        margin-left: -550px;
+    }
+
+    .supports {
+        margin-left: -430px;
+
+    }
+
+    .textVideo {
+        text-align: left;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 0;
+        line-height: 100px;
+        color: #E8E8E8;
+        text-transform: capitalize;
+        text-decoration: underline;
+        opacity: 1;
+        margin-top: -210px;
+        font-size: 20px;
+    }
+
+    .staticstext {
+        margin-left: 16px;
+    }
+
+    .galleryName {
+        padding-top: 91px;
+    }
+
+    .listIcons {
+        margin-top: -71px;
+    }
+
+
+    .listIconsHome {
+        margin-top: 250px;
+    }
+
+    .listIconsAbout {
+        margin-top: -180px;
+    }
+
+    .divLinks {
+        padding-top: 70px;
+    }
+
+    .carousel-noir1 {
+        margin-top: 596px;
+    }
+
+    .image-footer1 {
+
+        max-width: 180px;
+        height: 186px;
+        margin-left: -3px;
+    }
+
+    .ftco-quote1 {
+        margin-bottom: -42px;
+    }
+
+    .ftco-quote2 {
+        /*margin-bottom: -79px;*/
+        margin-top: -50px;
+    }
+
+    .ftco-quote3 {
+        /*margin-bottom: -79px;*/
+        margin-top: -111px;
+    }
+
+    .ftco-quote6 {
+        margin-bottom: -350px;
+        margin-top: -181px;
+    }
+
+    .ftco-quote7 {
+        /*margin-top: 122px;*/
+        padding-left: 42px;
+    }
+
+    .ftco-quote9 {
+        margin-top: -110px;
+
+    }
+
+    .image-carousel-layer {
+        border-style: none;
+        /* margin-bottom: 70px; */
+        background-position: center center;
+        background-size: cover;
+        height: 330px;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .carousel2 {
+        margin-top: 50px;
+    }
+
+    .sectionAllAbout {
+        height: 700px;
+    }
+}
+
+
+.image-little-down {
+
+    border-style: none;
+    /* margin-top: 91px; */
+    object-fit: contain;
+    /*box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);*/
+    background-position: center center;
+    background-size: cover;
+    height: 220px;
+    width: 173px
+}
+
+.image-section-2 {
+
+    border-style: none;
+    /* margin-top: 91px; */
+    background-position: center center;
+    background-size: cover;
+    /* height: 353px; */
+    width: 114%;
+}
+
+.image-section-6 {
+    border-style: none;
+    /* margin-top: 91px; */
+    background-position: center center;
+    background-size: cover;
+    width: 285px;
+    height: 408px;
+}
+
+.image-section-right {
+    border-style: none;
+    margin-top: 91px;
+    background-position: center center;
+    background-size: cover;
+    /* height: 74%; */
+    width: 75%;
+    margin-left: 117px;
+}
+
+
+.image-section-3 {
+
+    border-style: none;
+    /* margin-top: 91px; */
+    background-position: center center;
+    background-size: cover;
+    height: 338px;
+    width: 250px
+}
+
+.image-little {
+
+    border-style: none;
+    /* margin-top: 91px; */
+    background-position: center center;
+    background-size: cover;
+    height: 129px;
+    width: 196px
+}
+
+.image-little-black {
+
+    border-style: none;
+    /* margin-top: 91px; */
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 165px;
+}
+
+.image-little-black2 {
+
+    border-style: none;
+    /* margin-top: 91px; */
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 239px;
+
+}
+
+.image-logo {
+    vertical-align: center;
+    border-style: none;
+    /*margin-bottom: 70px;*/
+    background-position: center center;
+    background-size: cover;
+    top: 90px;
+    left: 2px;
+    margin-top: 40px;
+    bottom: 100px;
+    height: 20%;
+    width: 20%;
+}
+
+#image-menu:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+.logoMenu {
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+
+    border-style: none;
+    /*margin-bottom: 70px;*/
+    background-position: center center;
+    background-size: cover;
+    /*!*top: 90px;*!*/
+    /*left: 2px;*/
+    /*margin-top: 10px;*/
+    /*bottom: 100px;*/
+    /*height: 20%;*/
+    /*width: 20%;*/
+}
+
+.image-gal-down {
+
+    /*margin-bottom: 70px;*/
+    vertical-align: middle;
+    background-size: cover;
+    min-width: 80%;
+    min-height: 80%;
+}
+
+
+.text-down {
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    position: relative;
+}
+
+.down-menu-sg {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.down-menu {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -35px;
+    margin-left: 50px;
+}
+
+.down-menu1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.inclined-line {
+    width: 70%;
+    /*margin: auto;*/
+    margin-top: 326px;
+    margin-left: -180px;
+    transform: rotate(59deg);
+    /*border-color: #24A0ED;*/
+    z-index: 20;
+    border-top: 2px solid #01ABC4;
+}
+
+.circle-home {
+    width: 70%;
+    /*margin: auto;*/
+    margin-top: 326px;
+    /*margin-left: -180px;*/
+    /*transform: rotate(48deg);*/
+    /*border-color: #24A0ED;*/
+    z-index: 20;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+/*line background*/
+h1.background {
+    position: relative;
+    z-index: 1;
+    line-height: 50%;
+
+    /*height: 10%;*/
+}
+
+.background :before {
+    border-top: 2px solid #24A0ED;
+    content: "";
+    transform: rotate(113deg);
+    margin-left: -143px;
+    /*margin-bottom: 50px;*/
+    /*margin: 0 auto; !* this centers the line to the full width specified *!*/
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 30%;
+    /*left: 0;*/
+    /*right: 0;*/
+    bottom: 0;
+    /*height: 67%;*/
+    width: 75%;
+    z-index: -1;
+}
+
+/* line background home*/
+h1.background-home {
+    position: relative;
+    z-index: 1;
+    /*line-height: 50%;*/
+
+    /*height: 10%;*/
+}
+
+.background-home :before {
+
+    border-top: 2px solid white;
+    content: "";
+    transform: rotate(121deg);
+    margin-left: -142px;
+    /* margin-bottom: 50px; */
+    position: absolute;
+    top: 17%;
+    left: -16px;
+    /* right: 0; */
+    bottom: 0;
+    /* height: 67%; */
+    width: 55%;
+    z-index: -1;
+}
+
+a.circle-background {
+    position: relative;
+    z-index: 1;
+    height: 279%;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    top: -0%;
+    left: -10%;
+    right: 0;
+    bottom: 0;
+}
+
+/*.circle-background :before {*/
+/*    border-top: 2px solid white;*/
+/*    content: "";*/
+/*    border-radius: 50%;*/
+/*    !*transform: rotate(113deg);*!*/
+/*    !*margin-left: -143px;*!*/
+/*    !*margin-bottom: 50px;*!*/
+/*    !*margin: 0 auto; !* this centers the line to the full width specified *!*!*/
+/*    position: absolute; !* positioning must be absolute here, and relative positioning must be applied to the parent *!*/
+/*    !*top: 30%;*!*/
+/*    !*!*left: 0;*!*!*/
+/*    !*!*right: 0;*!*!*/
+/*    !*bottom: 0;*!*/
+/*    !*!*height: 67%;*!*!*/
+/*    width: 50%;*/
+/*    height: 50%;*/
+/*    z-index: -1;*/
+/*}*/
+
+
+/*links FAM department*/
+
+.Collections {
+    text-transform: uppercase;
+    width: 110px;
+    height: 84px;
+    /*font-family: 'Poppins',Serif;*/
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #01abc4;
+}
+
+.Collaborations {
+    text-transform: uppercase;
+
+    width: 188px;
+    height: 84px;
+    /*font-family: Poppins;*/
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.VideosLinks {
+    text-transform: uppercase;
+
+    width: 202px;
+    height: 84px;
+    /*font-family: Poppins;*/
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.Artworks {
+    text-transform: uppercase;
+
+    width: 252px;
+    height: 84px;
+    /*font-family: Poppins;*/
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+/*end links FAM department*/
+
+
+/*show content*/
+.Shop-by-Collections {
+    text-decoration: underline;
+    width: 421px;
+    height: 209px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 76px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.You-are-here-to-find {
+    width: 574.3px;
+    height: 228px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.8;
+    letter-spacing: 20px;
+    text-align: left;
+    color: #000000;
+}
+
+.Tela-Votive {
+    width: 255px;
+    height: 39px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #090909;
+}
+
+.Elegant-glass-candle {
+    /*width: 249px;*/
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #090909;
+}
+
+.Sarahs-Choise {
+    text-decoration: underline;
+    width: 261px;
+    height: 209px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 76px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.everything-is-almost {
+    width: 378px;
+    height: 184px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.8;
+    letter-spacing: 20px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.Vintage-objects {
+    width: 189px;
+    height: 31px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+a[tabindex]:focus {
+    opacity: 0.4;
+    outline: none;
+}
+
+
+
+.icon-chariot{
+    margin-top: 20px;
+    margin-left: 5px;
+    max-width: 11.666667%;
+    height: 51px;
+    color: black;
+
+}
+
+.Vintage-objects:hover {
+    width: 65px;
+    height: 31px;
+    opacity: 0.4;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.Vintage-objects:visited {
+    width: 65px;
+    height: 31px;
+    opacity: 0.4;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: blue;
+}
+
+.Vintage-objects3 {
+    width: 116px;
+    height: 31px;
+    opacity: 0.4;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+
+/*end show content*/
+
+
+/*menu footer*/
+.menuFooter {
+    padding-left: 20px;
+    width: 70px;
+    height: 18px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 10.5px;
+    text-align: left;
+    color: #01abc4;
+}
+
+.ShopFooter {
+    width: 172px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.VideosFooter {
+    width: 304px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.Look-bookFooter {
+    width: 242px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.ResumeFooter {
+    width: 354px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.ContactFooter {
+    width: 290px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+/*end menu footer*/
+
+
+/*section about*/
+.From-my-Model-Sets {
+    width: 364px;
+    height: 209px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 76px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.From-my-Model-Sets {
+    text-transform: uppercase;
+    text-decoration: underline;
+    width: 214px;
+    height: 209px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 76px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.FOULEN-FOULENI-KHEDMTOU-EN-DETAILS {
+    width: 174px;
+    background-color: white;
+    height: 60px;
+    -webkit-text-stroke: 1px #707070;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #171717;
+}
+
+
+.View-All-My-Videos {
+    text-transform: uppercase;
+    text-decoration: underline;
+    width: 307px;
+    height: 209px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 76px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+
+.Browse-our-latest-works {
+    width: 679px;
+    height: 128px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.8;
+    letter-spacing: 20px;
+    text-align: left;
+    color: var(--white);
+}
+
+
+.Live-Videos {
+    padding-left: 60px;
+    width: 402px;
+    height: 309px;
+    font-family: 'FjallaOne', sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 21.24px;
+    text-align: left;
+    color: var(--white);
+}
+
+.Enjoy-the-beauty-of {
+    width: 664px;
+    height: 139.4px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.8;
+    letter-spacing: 22px;
+    text-align: left;
+    color: var(--white);
+}
+
+.View-All-My-Videos-Static {
+    text-transform: uppercase;
+    text-decoration: underline;
+    width: 386px;
+    height: 209px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 76px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.Browse-our-latest-works-Static {
+    margin-top: 39px;
+    text-transform: uppercase;
+    width: 679px;
+    height: 128px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.8;
+    letter-spacing: 20px;
+    text-align: left;
+    color: #000000;
+}
+
+.des-Artistes-Plasticiens {
+    /*width: 211px;*/
+    height: 31px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.Trac-217 {
+    width: 133.9px;
+    height: 127.3px;
+    background-color: #01abc4;
+}
+
+.NumberPart {
+    width: 64px;
+    height: 72px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 51px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.Artistes {
+    width: 70px;
+    height: 31px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+/*end section about*/
+
+
+/*section gallery*/
+.Abdelgader-Badr2_Libya_2018 {
+    width: 287.7px;
+    height: 189.5px;
+    object-fit: contain;
+}
+
+.Abdelgader-Badr4_Libya_2018 {
+    width: 224px;
+    height: 281px;
+    object-fit: contain;
+}
+
+.Abdelgader-Badr3_Libya_2018 {
+    width: 328.9px;
+    height: 216.4px;
+    object-fit: contain;
+}
+
+/*end section gallery*/
+
+
+/*SECTION SUPPORTS*/
+.Some-details-about-m {
+    width: 500px;
+    height: 185px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 22px;
+    text-align: left;
+    color: var(--white);
+}
+
+.All-About {
+    text-transform: uppercase;
+    width: 113px;
+    height: 18px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #000000;
+}
+
+
+.a-fashion-designer-a {
+    padding-left: 130px;
+    width: 902px;
+    height: 96px;
+    font-family: 'BigCaslon', sans-serif;
+    font-size: 66px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #363636;
+}
+
+.More {
+    width: 109px;
+    height: 18px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 24px;
+    text-align: left;
+    color: #01abc4;
+}
+
+
+.Experience {
+    width: 448px;
+    height: 107px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 76px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
+.Designer {
+    width: 428px;
+    height: 55px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 43.2px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+
+.Having-graduated {
+    width: 1553px;
+    height: 163px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: 5.71px;
+    text-align: center;
+    color: var(--white);
+}
+
+.our-partners {
+    text-transform: capitalize;
+    width: 262px;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.48;
+    letter-spacing: normal;
+    text-align: right;
+    color: #01abc4;
+}
+
+.During-the-universit {
+    width: 1553px;
+    height: 260px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: 5.71px;
+    text-align: center;
+    color: var(--white);
+}
+
+.Social-networks {
+    width: 1553px;
+    height: 230px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: 5.71px;
+    text-align: center;
+    color: var(--white);
+}
+
+/*END SECTION SUPPORTS*/
+
+
+/*section home*/
+.CollectionsHome {
+    width: 110px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.CollaborationsHome {
+    width: 188px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.VideosHome {
+    width: 202px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.ArtworksFashionHome {
+    width: 252px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.ArtworksSpecHome {
+    width: 358px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.ArtworksVisualHome {
+    width: 358px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.ArtworksWorkHome {
+    width: 618px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+
+.Just-a-bit-of-what-home {
+    width: 562px;
+    height: 125px;
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.8;
+    letter-spacing: 21px;
+    text-align: left;
+    color: var(--white);
+}
+
+
+.ImageHome {
+    width: 895px;
+    height: 1054px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+
+/*end section home*/
+
+.carousel-indicators {
+
+    bottom: 28px;
+
+}
+
+
+.Expanding {
+    transition: width 0.3s ease-in-out;
+
+}
+
+.Expanding:hover {
+    width: 1000px;
+}
+
+.icon-image {
+    /*background-image: url('assets/img/bg_1.jpg');*/
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 67px;
+    /* bottom: 100px; */
+    height: 80%;
+    width: 28%;
+    border: solid 3px #01abc4;
+}
+
+.icon-image:before {
+    content: none;
+}
+
+/*.icon-image:hover {*/
+/*    background-image: url('assets/img/bg_2.jpg');*/
+
+/*}*/
+
+
+.Trac-171 {
+    width: 100%;
+    height: 100%;
+    /*opacity: 0.5;*/
+    /*opacity: 0.48;*/
+    border: solid 1px #E8E8E8;
+    background-color: #E8E8E8;
+}
+
+
+.slider-itemCart {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 170px;
+    position: relative;
+    display: block;
+}
+
+
+.textMakloub {
+    height: 227px;
+    color: #000000;
+    text-align: center;
+    -webkit-text-orientation: sideways;
+    text-orientation: sideways;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-lr;
+    font-size: 17px;
+    font-family: "Poppins", "Regular", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 24px;
+    display: inline-block;
+    transform: rotate(-180deg);
+
+
+}
+
+.text-left-item {
+    font-size: 35px;
+    font-family: "Futura PT", "Book", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #171717;
+}
+
+.link-piece {
+    font-size: 15px;
+    font-family: "Futura PT", "Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.price-shipping-money {
+    font-size: 15px;
+    font-family: "Futura PT", "Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 9px;
+    color: #000000;
+    text-align: right;
+    opacity: 30%;
+}
+
+.price-shipping {
+    font-size: 15px;
+    font-family: "Futura PT", "Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 30%;
+}
+
+.price-total-money {
+    font-size: 15px;
+    font-family: "Futura PT", "Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    text-align: right;
+    letter-spacing: 9px;
+    color: #000000;
+    opacity: 100%;
+}
+
+.price-total {
+    font-size: 15px;
+    font-family: "Futura PT", "Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 100%;
+}
+
+
+.text-left-sous-item {
+    font-size: 12px;
+    font-family: "Futura PT", "Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-left: 3px;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+.btn-check {
+    border: 2px solid #000000;
+    background-color: #000000;
+    height: 60px;
+}
+
+
+.name-btn {
+    color: #FFFFFF;
+    font-family: "Futura PT", "Medium", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.styles_overlay__CLSq- {
+    background: #E8E8E8;
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000;
+    padding: 2rem;
+}
+
+@media (min-width: 1050px) {
+    .Throughout-the-last {
+        width: 618px;
+        height: 245.8px;
+        font-family: 'FuturaPT', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.14;
+        letter-spacing: 5px;
+        text-align: center;
+        color: #2c2c2c;
+    }
+
+    .margin-detail {
+        margin-left: 55px;
+    }
+
+    .text-left-item-money {
+        font-size: 20px;
+        font-family: "Futura PT", "Medium", sans-serif;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        margin-left: 50px;
+        text-align: right;
+        letter-spacing: 9px;
+        color: #707070;
+    }
+
+    .your-order {
+        color: #000000;
+        font-family: "Fjalla One", sans-serif;
+        font-size: 90px;
+        /*font-weight: normal;*/
+        font-stretch: normal;
+        font-style: normal;
+        margin-left: 30px;
+        margin-top: 30px;
+        line-height: 2.18;
+        /*letter-spacing: 21px;*/
+        text-align: left;
+    }
+
+    hr.new1 {
+        border-top: 2px solid #000000;
+        min-width: 729px;
+        max-height: 2px;
+        margin-left: 25px;
+        margin-top: 6px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1049px) {
+    .text-left-item-money {
+        font-size: 20px;
+        font-family: "Futura PT", "Medium", sans-serif;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        /* margin-left: 50px; */
+        text-align: right;
+        letter-spacing: 9px;
+        color: #707070;
+    }
+
+    .styles_modal__gNwvD {
+        min-width: 700px;
+        position: relative;
+        margin-left: -10px;
+        padding: 0;
+        /*background: #ffffff;*/
+        background-clip: padding-box;
+        box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+        /*margin: 0 auto;*/
+    }
+
+    .your-order {
+        color: #000000;
+        font-family: "Fjalla One", sans-serif;
+        font-size: 62px;
+        /*font-weight: normal;*/
+        font-stretch: normal;
+        font-style: normal;
+        margin-left: 10px;
+        margin-top: 100px;
+        line-height: 2.18;
+        /*letter-spacing: 21px;*/
+        text-align: left;
+    }
+
+    hr.new1 {
+        border-top: 2px solid #000000;
+        width: 750px;
+        max-height: 2px;
+
+        margin-top: 6px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .styles_modal__gNwvD {
+        min-width: 700px;
+        position: relative;
+        margin-left: -10px;
+        padding: 0;
+        /*background: #ffffff;*/
+        background-clip: padding-box;
+        box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+        /*margin: 0 auto;*/
+    }
+
+    .your-order {
+        color: #000000;
+        font-family: "Fjalla One", sans-serif;
+        font-size: 93px;
+        /* font-weight: normal; */
+        font-stretch: normal;
+        font-style: normal;
+        margin-top: 50px;
+        line-height: 2.18;
+        /* letter-spacing: 21px; */
+        text-align: left;
+    }
+
+    hr.new1 {
+        border-top: 2px solid #000000;
+        width: 641px;
+        max-height: 2px;
+
+        margin-top: 6px;
+    }
+}
+
+@media (min-width: 646px) and (max-width: 767px) {
+
+    .styles_modal__gNwvD {
+        min-width: 500px;
+        position: relative;
+        margin-left: -10px;
+        padding: 0;
+        /*background: #ffffff;*/
+        background-clip: padding-box;
+        box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+        /*margin: 0 auto;*/
+    }
+
+    .your-order {
+        color: #000000;
+        font-family: "Fjalla One", sans-serif;
+        font-size: 90px;
+        /* font-weight: normal; */
+        font-stretch: normal;
+        font-style: normal;
+        margin-top: 50px;
+        line-height: 2.18;
+        /* letter-spacing: 21px; */
+        text-align: left;
+    }
+
+    hr.new1 {
+        border-top: 2px solid #000000;
+        width: 526px;
+        max-height: 2px;
+
+        margin-top: 6px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 645px) {
+
+    .image-section-right {
+        border-style: none;
+        margin-top: 91px;
+        background-position: center center;
+        background-size: cover;
+        /* height: 74%; */
+        width: 28%;
+        margin-left: 117px;
+    }
+
+    .image-section-2 {
+        border-style: none;
+        /* margin-top: 91px; */
+        background-position: center center;
+        background-size: cover;
+        /* height: 353px; */
+        width: 33%;
+    }
+
+    hr.new1 {
+        border-top: 2px solid #000000;
+        width: 380px;
+        max-height: 2px;
+
+        margin-top: 6px;
+    }
+
+    .text-left-item-money {
+        font-size: 20px;
+        font-family: "Futura PT", "Medium", sans-serif;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        /* margin-left: 50px; */
+        text-align: right;
+        letter-spacing: 9px;
+        color: #707070;
+    }
+
+    .your-order {
+        color: #000000;
+        font-family: "Fjalla One", sans-serif;
+        font-size: 66px;
+        /* font-weight: normal; */
+        font-stretch: normal;
+        font-style: normal;
+        margin-top: 50px;
+        line-height: 2.18;
+        /* letter-spacing: 21px; */
+        text-align: left;
+    }
+
+    .styles_modal__gNwvD {
+        min-width: 440px;
+        position: relative;
+        margin-left: -10px;
+        padding: 0;
+        /*background: #ffffff;*/
+        background-clip: padding-box;
+        box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+        /*margin: 0 auto;*/
+    }
+
+    .styles_modalCenter__L9F2w {
+        margin: auto;
+    }
+
+    .styles_closeButton__20ID4 {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        display: flex;
+    }
+
+    .styles_closeIcon__1QwbI {
+    }
+
+    .styles_transitionEnter__3j_-a {
+        opacity: 0.01;
+    }
+
+    .styles_transitionEnterActive___eQs7 {
+        opacity: 1;
+        transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .styles_transitionExit__1KmEf {
+        opacity: 1;
+    }
+
+    .styles_transitionExitActive__1nQXw {
+        opacity: 0.01;
+        transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+}
+
+/*.styles_modal__gNwvD {*/
+/*    min-width: 1148px;*/
+/*    position: relative;*/
+/*    padding: 0;*/
+/*    background: #ffffff;*/
+/*    background-clip: padding-box;*/
+/*    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);*/
+/*    margin: 0 auto;*/
+/*}*/
+
+
+.a {
+    color: #01abc4;
+    text-decoration: none;
+}
+
+.ftco-footer a:hover {
+    color: #01abc4;
+    text-decoration: none;
+}
+
+
+/*.SubscribeMenu:hover{*/
+/*    text-decoration: none;*/
+/*}*/
+
+#colorlib-main-nav ul li a:hover span {
+    color: #01ABC4;
+    text-decoration: none;
+
+}
+
+.sectionLinksHome ul li a:hover span {
+    color: #01ABC4;
+    text-decoration: none;
+}
+
+.ResumeFooter:hover {
+    color: #01ABC4;
+}
+
+.ShopFooter:hover {
+    color: #01ABC4;
+}
+
+.VideosFooter:hover {
+    color: #01ABC4;
+}
+
+.Look-bookFooter:hover {
+    color: #01ABC4;
+}
+
+.ResumeFooter:hover {
+    color: #01ABC4;
+}
+
+.ContactFooter:hover {
+    color: #01ABC4;
+}
+
+.ul li a:hover .ArtworksVisualHome {
+    color: #000000;
+
+}
+
+
+.imgBACK {
+    background-image: url("components/pages/assets/img/About1x.png");
+
+}
+
+.imgBACKHome {
+    background-image: url("components/pages/assets/img/homeImage.png");
+
+}
+
+.imgBACKGallery {
+    background-image: url("components/pages/assets/img/galleryImage.png");
+
+}
+
+.imgBACKCollections {
+    background-image: url("components/pages/assets/img/CollectionImage.png");
+
+}
+
+.imgBACKSupport {
+    background-image: url("components/pages/assets/img/ImageSupport.png");
+
+}
